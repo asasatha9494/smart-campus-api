@@ -2,6 +2,7 @@
 
 ## Overview
 This project is a RESTful API developed using JAX-RS for the Smart Campus coursework. The API manages rooms, sensors assigned to rooms, and historical sensor readings. It demonstrates RESTful design, nested resources, custom exception mapping, and request/response logging.
+The API is designed for the Smart Campus Sensor & Room Management scenario.
 
 The system models three main resources:
 - **Room**: stores room details such as id, name, capacity, and assigned sensor IDs
