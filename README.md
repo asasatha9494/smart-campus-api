@@ -18,6 +18,7 @@ This implementation uses in-memory data structures such as **HashMap** and **Arr
 - Maven
 - HashMap
 - ArrayList
+- Json
 
 ## API Base URL
 ```text
