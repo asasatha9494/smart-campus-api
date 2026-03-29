@@ -1,5 +1,6 @@
 package com.smartcampus.model;
 
+// Model class representing a sensor assigned to a room
 public class Sensor {
     private String id;
     private String type;
