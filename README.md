@@ -1,5 +1,4 @@
 # Smart Campus Sensor & Room Management API
-
 Coursework module: 5COSC022W Client-Server Architectures
 
 
