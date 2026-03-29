@@ -1,5 +1,5 @@
 # Smart Campus Sensor & Room Management API
-
+Coursework module: 5COSC022W Client-Server Architectures
 ## Overview
 This project is a RESTful API developed using JAX-RS for the Smart Campus coursework. The API manages rooms, sensors assigned to rooms, and historical sensor readings. It demonstrates RESTful design, nested resources, custom exception mapping, and request/response logging.
 
