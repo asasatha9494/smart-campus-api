@@ -2,7 +2,7 @@ package com.smartcampus.model;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// Model class representing a campus room
 public class Room {
     private String id;
     private String name;
