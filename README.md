@@ -32,4 +32,4 @@ http://localhost:8080/api/v1/
 
 ### Step 1: Clone the repository
 ```bash
-git clone <your-public-github-repo-link>
+git clone https://github.com/asasatha9494/smart-campus-api.git
