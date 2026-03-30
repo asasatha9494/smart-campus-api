@@ -23,9 +23,15 @@ public class RoomResource {
 
     @POST
     public Response createRoom(Room room) {
-        if (room == null || room.getId() == null || room.getId().trim().isEmpty()) {
+        if (room.getName() == null || room.getId() == null || room.getId().trim().isEmpty()) {
             return Response.status(Response.Status.BAD_REQUEST)
                     .entity("Room ID is required")
+                    .build();
+        }
+
+        if (DataStore.rooms.containsKey(room.getId())) {
+            return Response.status(Response.Status.CONFLICT)
+                    .entity("Room with this ID already exists")
                     .build();
         }
 
