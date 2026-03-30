@@ -29,6 +29,12 @@ public class RoomResource {
                     .build();
         }
 
+        if (DataStore.rooms.containsKey(room.getId())) {
+            return Response.status(Response.Status.CONFLICT)
+                    .entity("Room with this ID already exists")
+                    .build();
+        }
+
         DataStore.rooms.put(room.getId(), room);
         return Response.status(Response.Status.CREATED)
                 .entity(room)
